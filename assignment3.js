@@ -1,7 +1,7 @@
 
 // problem-1 solution
 function kilometerToMeter(kilometer) {
-    if (kilometer > 0) {
+    if (kilometer >= 0) {
         let meter = kilometer * 1000;
         return meter;
     }
